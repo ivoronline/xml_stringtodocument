@@ -16,7 +16,7 @@ public class Main {
   public static void main(String[] args) throws Exception {
 
     //GET DOCUMENT
-    Document document = XMLUtil.stringToDocument(xmlString);
+    Document document = UtilXML.stringToDocument(xmlString);
 
     //GET AGE VALUE
     Node     nameNode = document.getElementsByTagName("name").item(0);
